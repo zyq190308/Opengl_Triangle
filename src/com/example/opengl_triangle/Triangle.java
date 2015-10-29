@@ -98,7 +98,7 @@ public class Triangle {
 		
 		Matrix.setIdentityM(mVMatrix, 0);
 //		Matrix.scaleM(mVMatrix, 0, 0.4f, 0.4f, 0.4f);
-		Matrix.rotateM(mVMatrix, 0, num, 1.0f, 1.0f, 0.0f);
+		Matrix.rotateM(mVMatrix, 0, num, 0.0f, 1.0f, 0.0f);
 		GLES20.glUniformMatrix4fv(muMVPMatrixHandle, 1,false,mVMatrix,0);
 
 		// »­Èý½ÇÐÎ
